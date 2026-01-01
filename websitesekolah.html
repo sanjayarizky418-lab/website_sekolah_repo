@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sekolah Hebat</title>
+<style>
+    /* Reset dan dasar */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f0f8ff;
+        line-height: 1.6;
+        color: #333;
+    }
+
+    /* Header */
+    header {
+        background-color: #004080;
+        color: #fff;
+        padding: 30px 20px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+    }
+
+    /* Navigasi */
+    nav {
+        display: flex;
+        justify-content: center;
+        background-color: #0066cc;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        padding: 15px 20px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background 0.3s, transform 0.2s;
+    }
+
+    nav a:hover {
+        background-color: #0059b3;
+        transform: scale(1.05);
+    }
+
+    /* Konten */
+    section {
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        transition: transform 0.2s;
+    }
+
+    section:hover {
+        transform: translateY(-5px);
+    }
+
+    h2 {
+        color: #003366;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #0066cc;
+        padding-bottom: 5px;
+    }
+
+    /* Daftar */
+    ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #004080;
+        color: #fff;
+        text-align: center;
+        padding: 15px 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
+    }
+
+    /* Responsif */
+    @media(max-width: 768px) {
+        header h1 {
+            font-size: 2em;
+        }
+
+        nav {
+            flex-direction: column;
+        }
+
+        nav a {
+            padding: 12px;
+        }
+
+        section {
+            margin: 20px 10px;
+        }
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Selamat Datang di Sekolah Hebat</h1>
+</header>
+
+<nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#tentang">Tentang Kami</a>
+    <a href="#jurusan">Jurusan</a>
+    <a href="#kontak">Kontak</a>
+</nav>
+
+<section id="beranda">
+    <h2>Beranda</h2>
+    <p>Selamat datang di website resmi Sekolah Hebat. Kami menyediakan pendidikan berkualitas untuk masa depan yang cerah. Bergabunglah bersama kami dan raih masa depan cerah bersama!</p>
+</section>
+
+<section id="tentang">
+    <h2>Tentang Kami</h2>
+    <p>Sekolah Hebat adalah lembaga pendidikan yang berdedikasi tinggi dalam membangun generasi penerus bangsa dengan kualitas terbaik. Tim pengajar profesional dan fasilitas lengkap siap mendukung proses belajar Anda.</p>
+</section>
+
+<section id="jurusan">
+    <h2>Jurusan yang Tersedia</h2>
+    <ul>
+        <li>IPA</li>
+        <li>IPS</li>
+        <li>Bahasa</li>
+        <li>Teknologi Informasi</li>
+    </ul>
+</section>
+
+<section id="kontak">
+    <h2>Kontak Kami</h2>
+    <p>Alamat: Jl. Pendidikan No. 123, Kota Pelajar</p>
+    <p>Telepon: (021) 12345678</p>
+    <p>Email: info@sekolahhebat.id</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Sekolah Hebat. All rights reserved.</p>
+</footer>
+</body>
+</html>
